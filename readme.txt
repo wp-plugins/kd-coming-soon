@@ -51,10 +51,10 @@ For support and further information about the KD Coming Soon plugin see the plug
 
 == Screenshots ==
 
-1. The KD Coming Soon settings section
-2. The KD Coming Soon photo-slider section
-3. The KD Coming Soon social-media section
-4. The KD Coming Soon front-end landing page
+1. The KD Coming Soon front-end landing page
+2. The KD Coming Soon settings section
+3. The KD Coming Soon photo-slider section
+4. The KD Coming Soon social-media section
 
 == Changelog ==
 
