@@ -1,0 +1,192 @@
+/*
+	KD Coming Soon
+
+	Copyright (c) 2015 Kalli Dan. (email : kallidan@yahoo.com)
+
+	KD Coming Soon is free software: you can redistribute it but NOT modify it
+	under the terms of the GNU Lesser Public License as published by the Free Software Foundation,
+	either version 3 of the LGPL License, or any later version.
+
+	KD Coming Soon is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+	See the GNU Lesser Public License for more details.
+
+	You should have received a copy of the GNU Lesser Public License along with KD Coming Soon.
+	If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* setup */
+.wrap {
+	margin: 10px 20px 0 2px;
+}
+
+.wrap h2.cstitle {
+	font-family: 'Aller', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #21759b;
+}
+.wrap h2.cstitle > img {
+  padding: 10px 20px 20px 0px;
+}
+
+h3 {
+	color: #222;
+	font-size: 1.3em;
+	margin: 1em 0;
+}
+h5 {
+	font-size: .83em;
+	margin: 1.67em 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* frame layout */
+table.csadmin{
+	padding:10px;
+	width:870px;
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+form.csadmin{
+	padding:10px;
+	width:850px;
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+div.csadmin{
+	padding:10px;
+	width:850px;
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+table.csadmin td{
+	padding: 3px;
+}
+
+/* buttons */
+.btn-success {
+  color: #fff !important;
+  background-color: #5cb85c !important;
+  border-color: #4cae4c !important;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+  color: #fff !important;
+  background-color: #47a447 !important;
+  border-color: #398439 !important;
+}
+.btn-info {
+  color: #fff !important;
+  background-color: #5bc0de !important;
+  border-color: #46b8da !important;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active {
+  color: #fff !important;
+  background-color: #39b3d7 !important;
+  border-color: #269abc !important;
+}
+.btn-warning {
+  color: #fff !important;
+  background-color: #f0ad4e !important;
+  border-color: #eea236 !important;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active {
+  color: #fff !important;
+  background-color: #ed9c28 !important;
+  border-color: #d58512 !important;
+}
+.btn-danger {
+  color: #fff !important;
+  background-color: #d9534f !important;
+  border-color: #d43f3a !important;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active {
+  color: #fff !important;
+  background-color: #d2322d !important;
+  border-color: #ac2925 !important;
+}
+.cshelp-inline {
+	display:inline-block;
+	vertical-align: middle;
+	background: #f8f8f8 url(../img/help.png) top left;
+	position: relative;
+	width:14px;
+	height:14px;
+	cursor:pointer;
+}
+
+/* slides */
+#kdcsslideopt{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#kdcsslideopt li {
+	margin-bottom: 5px;
+}
+
+/* preview */
+#cspreview{
+	display:none;
+	width:800px;
+	height:900px;
+}
+#csPreviewContent{
+	width: 100%;
+	height: 900px;
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+
+/* validation errors */
+.cserror {
+  display: none;
+  text-align: left;
+  margin: 0;
+  font-family: 'Aller', Arial, Helvetica, Geneva, sans-serif;
+  font-size: 11px;
+  color: #ff0e0e;
+  white-space: nowrap;
+}
+.cs-sw{
+	display: inline;
+	font-size: 14px;
+	color: #e75967;
+}
+
+/* slide delete button */
+.outer {
+	text-decoration:none;
+	height:auto;
+	z-Index: 9;
+}
+.box1 {
+	display: none;
+	position:absolute;
+	width: 16px;
+	height:16px;
+	z-Index: 10;
+}
